@@ -1,0 +1,4 @@
+name: I've Been Working On The Internet All The Live Long Day
+pygments: true
+timezone: America/Chicago
+include: ['/js', '/img']
