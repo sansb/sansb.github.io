@@ -1,9 +1,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Coda+Caption:800);
-.nes-container{ width: 100%; overflow: auto; }
-.nes{
-  font-size:1px;
-  float: left;
+#nes{
+  font-size:8px;
   width: 45em;
   height: 15em;
   margin: 30px auto;
@@ -16,10 +14,8 @@
 -ms-transition: all 0.1s;
 transition: all 0.1s;
 }
-.nes.mom{ font-size: 4px; }
-.nes.large{ font-size: 8px; }
 
-.nes:after {
+#nes:after {
   content: "";
   position: absolute;
   width: 80%;
@@ -33,7 +29,7 @@ transition: all 0.1s;
   border-radius: 50%;
 }
 
-.nes:before {
+#nes:before {
   content: "";
   position: absolute;
   width: 99.4%;
@@ -50,7 +46,7 @@ transition: all 0.1s;
   box-sizing: border-box;
 }
 
-.nes .nes-top {
+#nes .nes-top {
   position: absolute;
   top: 0;
   left0;
@@ -71,21 +67,21 @@ transition: all 0.1s;
   box-sizing: border-box;
 }
 
-.nes h1 {
+#nes h1 {
   font-size: 1.5em;
   position: absolute;
   top: 0.4em;
   left: 0.85em;
 }
 
-.nes .lid h2 {
+#nes .lid h2 {
   font-size: 0.6em;
   position: absolute;
   top: 5.1em;
   left: 2.2em;
 }
 
-.nes .lid {
+#nes .lid {
   z-index: 1;
   width: 25em;
   height: 6em;
@@ -125,7 +121,7 @@ transform-origin:0 0 -6em;
   border-radius: 0.15em;
 }
 
-.nes .lid:before {
+#nes .lid:before {
 content: "";
 position: absolute;
 width: 20%;
@@ -143,7 +139,7 @@ background: linear-gradient(to bottom, rgba(205, 200, 197, 1) 0%,rgba(231, 231, 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdc8c5', endColorstr='#e7e7e7',GradientType=0 );
 box-shadow: 0.2em 0.05em 0.3em -0.1em rgba(0, 0, 0, 0.3);
 }
-.nes .nes-top:hover .lid {
+#nes .nes-top:hover .lid {
   -webkit-transform: rotateX(55deg);
   -moz-transform: rotateX(55deg);
   -o-transform: rotateX(55deg);
@@ -155,7 +151,7 @@ box-shadow: 0.2em 0.05em 0.3em -0.1em rgba(0, 0, 0, 0.3);
   box-shadow: 0 3.1em 5.2em -2em rgba(0, 0, 0, 0.32);
 }
 
-.nes .nes-top:before {
+#nes .nes-top:before {
 content: "";
 position: absolute;
 border-right: 0.8em solid #B8B8B8;
@@ -607,7 +603,7 @@ box-shadow: -0.1em 0 0 rgba(255, 255, 255, 0.02),inset 0.1em 0 0 rgba(255, 255, 
   90% { -webkit-transform: translate(20px, 20px) rotate(0deg); }
   100% { -webkit-transform: translate(10px, -20px) rotate(-10deg); }
 }
-.nes {
+#nes {
   -webkit-animation-name: dongs;
   -webkit-animation-duration: 0.8s;
   -webkit-transform-origin:50% 50%;

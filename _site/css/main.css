@@ -15,7 +15,6 @@ html, body { height: 100%; }
 body {
   background-image: url('/img/bg.gif');
   background-size: 100% 100%;
-  background-repeat: no-repeat;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
