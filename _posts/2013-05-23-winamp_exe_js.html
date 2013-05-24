@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Winamp.exe.js"
+date:   2013-05-23
+categories: [js]
+---
+<script type="text/javascript">
+var winamp_exe = setInterval(function(){
+  var title = document.title
+  title = title.substr(1, title.length-1) + title[0]
+  document.title = title
+}, 100)
+</script>
+<p>It really kicks the llama's ass.</p>
+{% highlight js %}
+var winamp_exe = setInterval(function(){
+      var title = document.title
+      title = title.substr(1, title.length-1) + title[0]
+      document.title = title
+    }, 100)
+{% endhighlight %}
+
+<p>Here's some actually cool stuff that messes with the title bar:
+    <ul>
+        <li><a href="http://www.p01.org/releases/DEFENDER_of_the_favicon/">DEFENDER of the favicon</a></li>
+        <li><a href="http://www.patrick-wied.at/projects/tough-title-city/">Tough Title City</a></li>
+    </ul>
+</p>
